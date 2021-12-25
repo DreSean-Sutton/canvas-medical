@@ -8,30 +8,43 @@
   <link rel="stylesheet" href="/css-canvas-medical/example-1/css/reset.css">
   <link rel="stylesheet" href="/css-canvas-medical/example-1/css/layout.css">
   <link rel="stylesheet" href="/css-canvas-medical/example-1/css/styles.css">
+  <link rel="stylesheet" href="./../fonts.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row align-items-baseline border">
-      <div class="column-half">
-        <img src="/css-canvas-medical/images/logo-blue.svg" alt="blue canvas logo">
+  <main class="container">
+    <header class="row align-items-center header-border">
+      <div class="column-one-quarter">
+        <img id="header-logo" src="/css-canvas-medical/images/logo-blue.svg" alt="blue canvas logo">
       </div>
-      <div class="column-one-tenth">
-        <nav>Product</nav>
+      <div class="column-three-quarter">
+        <nav id="navbar">
+          <ul>
+            <li class="navbar-list">
+              <a href="">Product</a>
+            </li>
+            <li class="navbar-list">
+              <a href="">Implementation</a>
+            </li>
+            <li class="navbar-list">
+              <a href="">About Us</a>
+            </li>
+            <li class="navbar-list">
+              <a href="">Blog</a>
+            </li>
+            <li class="navbar-list">
+              <button href="">Contact Us</button>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="column-one-tenth">
-        <nav>Implementation</nav>
+    </header>
+    <section id="hero-section" class="row">
+      <div id="hero-image-overlay"></div>
+      <div>
+        <img id="hero-image" src="./../images/hero.jpg" alt="Black girl smiling">
       </div>
-      <div class="column-one-tenth">
-        <nav>About Us</nav>
-      </div>
-      <div class="column-one-tenth">
-        <nav>Blog</nav>
-      </div>
-      <div class="column-one-tenth">
-        <nav>Contact Us</nav>
-      </div>
-    </div>
-  </div>
-  <h1></h1>
+      <h1>The EMR Reimagined for Primary Care</h1>
+    </section>
+  </main>
 </body>
 </html>
