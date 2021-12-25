@@ -8,6 +8,10 @@ header {
   justify-content: space-between;
 }
 
+header:first-child {
+  border-bottom: 2px solid rgb(128 128 128 / 33.6%);
+}
+
 #header-logo {
   width: 50%;
 }
@@ -114,10 +118,6 @@ section {
 
 .column-one-tenth {
   width: 10%;
-}
-
-.header-border {
-  border-bottom: 2px solid rgb(128 128 128 / 33.6%);
 }
 
 .margin-auto {
