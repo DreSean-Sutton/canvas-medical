@@ -1,6 +1,7 @@
 html {
   font-family: Avenir, sans-serif;
   font-weight: lighter;
+  color: rgb(111 111 111);
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 header:first-child {
-  border-bottom: 2px solid rgb(128 128 128 / 33.6%);
+  border-bottom: 1px solid rgb(168 168 168 / 30%);
 }
 
 #header-logo {
@@ -28,7 +29,7 @@ li {
 }
 
 a {
-  color: rgb(156 154 154);
+  color: rgb(111 111 111);
   text-decoration: none;
 }
 
