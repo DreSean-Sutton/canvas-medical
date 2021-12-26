@@ -12,6 +12,13 @@ header {
   border-bottom: 1px solid rgb(168 168 168 / 30%);
 }
 
+button {
+  color: white;
+  background-color: rgb(41 68 100);
+  border: 1px solid rgb(41 68 100);
+  border-radius: 5px;
+}
+
 #header-logo {
   width: 50%;
 }
@@ -31,17 +38,13 @@ ul {
   margin-left: 2rem;
 }
 
+.navbar-list > button {
+  padding: 0.5rem;
+}
+
 a {
   color: rgb(111 111 111);
   text-decoration: none;
-}
-
-li > button {
-  color: white;
-  background-color: rgb(41 68 100);
-  border: 1px solid rgb(41 68 100);
-  padding: 0.5rem;
-  border-radius: 5px;
 }
 
 section {
@@ -86,10 +89,6 @@ section {
 #hero-image-text > button {
   font-size: 1.1rem;
   padding: 0.75rem 2rem;
-  background-color: rgb(41 68 100);
-  color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(41 68 100);
 }
 
 #locations {
