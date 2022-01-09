@@ -1,3 +1,18 @@
+.header-layout {
+  padding: 0.5rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(168 168 168 / 30%);
+}
+
+.navbar-list {
+  margin-left: 3em;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 .align-items-center {
   align-items: center;
 }

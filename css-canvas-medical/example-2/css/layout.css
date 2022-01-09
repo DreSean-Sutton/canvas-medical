@@ -34,3 +34,9 @@
 .column-one-tenth {
   width: 10%;
 }
+
+@media all and (max-width: 1000px) {
+  .navbar-list {
+    margin-left: 1em;
+  }
+}

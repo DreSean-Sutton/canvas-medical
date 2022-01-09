@@ -1,10 +1,26 @@
-/* header {
-  padding: 0.5rem 4rem;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid rgb(168 168 168 / 30%);
-} */
+html {
+  font-size: 16;
+  line-height: 1.4;
+  color: rgb(180 180 180);
+}
+
+#header-logo {
+  width: 50%;
+}
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(10 66 101);
+  color: white;
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  border: none;
+  box-shadow: 1px 1px 2px 1px rgb(150 150 150);
 }
