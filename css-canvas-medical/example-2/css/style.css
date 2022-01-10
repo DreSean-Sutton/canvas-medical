@@ -28,3 +28,24 @@ button {
 button:hover {
   border: 0.5px solid rgb(180 180 180);
 }
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  left: 4rem;
+  background: linear-gradient(transparent, rgb(120 120 120 / 60%));
+  width: 84.3%;
+  height: 800px;
+}
+
+#hero-text h2 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+#hero-text p {
+  font-size: 1.4em;
+  font-weight: bold;
+}

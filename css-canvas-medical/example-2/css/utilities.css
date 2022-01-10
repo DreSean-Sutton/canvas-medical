@@ -15,12 +15,17 @@ main section {
 
 #hero-image img {
   width: 100%;
-  padding: 4rem;
+  height: 800px;
+  z-index: -1;
 }
 
-/* .section-side-padding {
-  padding: 4em;
-} */
+#hero-text {
+  position: absolute;
+  bottom: 10%;
+  left: 7%;
+  color: white;
+  z-index: 9999;
+}
 
 .justify-content-end {
   justify-content: flex-end;
