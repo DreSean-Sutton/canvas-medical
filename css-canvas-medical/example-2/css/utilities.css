@@ -1,16 +1,27 @@
+header {
+  border-bottom: 1px solid rgb(168 168 168 / 30%);
+}
+
 .header-layout {
-  padding: 0.5rem 4rem;
+  width: 95%;
+  padding: 0.5rem 0;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgb(168 168 168 / 30%);
 }
 
 .navbar-list {
   margin-left: 3em;
 }
 
-main section {
+main {
   margin-top: 4rem;
+}
+
+#hero-image {
+  margin: auto;
+  width: 95%;
+  position: relative;
 }
 
 #hero-image img {
