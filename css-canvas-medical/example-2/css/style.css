@@ -51,27 +51,7 @@ button:hover {
   left: 0;
   background-color: var(--overlay-color);
   width: 100%;
-  height: 1200px;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 400;
-  font-family: TiemposHeadline-Regular, serif;
-  margin: 0;
-  line-height: 1;
-}
-
-p {
-  font-size: 1.4rem;
-  line-height: 1.4em;
-}
-
-p i {
-  font-size: 1.2rem;
-  font-family: TiemposHeadline, serif;
-  font-style: italic;
-  font-weight: 300;
+  height: 1000px;
 }
 
 #automation {
@@ -89,6 +69,11 @@ p i {
 
 #location a {
   color: var(--light-opacity-white);
+}
+
+#terms a {
+  color: rgb(80 80 80);
+  font-weight: bold;
 }
 
 .bold {
