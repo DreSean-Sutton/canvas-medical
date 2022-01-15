@@ -70,34 +70,6 @@ p i {
   font-family: TiemposHeadline-Regular, serif;
 }
 
-#notes a {
-  font-size: 1.4rem;
-  margin: 6em 0;
-  text-decoration: initial;
-}
-
-#notes span {
-  font-size: 1.2rem;
-}
-
-#notes img {
-  width: 100%;
-}
-
-#population a {
-  font-size: 1.4rem;
-  margin: 6em 0;
-  text-decoration: initial;
-}
-
-#population span {
-  font-size: 1.2rem;
-}
-
-#population img {
-  width: 100%;
-}
-
 .bold {
   font-weight: bold;
 }
