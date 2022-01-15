@@ -4,12 +4,12 @@
   --button-boxshadow: 1px 1px 2px 2px rgb(150 150 150);
   --light-dark-background: whitesmoke;
   --grey-letters: rgb(180 180 180);
+  --main-location-color: rgb(82 83 81);
+  --light-opacity-white: rgb(255 255 255 / 70%);
 }
 
-html {
-  font-size: 16;
-  line-height: 1.4em;
-  font-family: Avenir, sans-serif;
+header {
+  border-bottom: 1px solid rgb(168 168 168 / 30%);
 }
 
 #header-logo {
@@ -51,7 +51,7 @@ button:hover {
   left: 0;
   background-color: var(--overlay-color);
   width: 100%;
-  height: 800px;
+  height: 1200px;
 }
 
 h2 {
@@ -72,6 +72,23 @@ p i {
   font-family: TiemposHeadline, serif;
   font-style: italic;
   font-weight: 300;
+}
+
+#automation {
+  border-bottom: 1.5px solid rgb(168 168 168 / 30%);
+}
+
+#location {
+  background-color: var(--main-location-color);
+  color: var(--light-opacity-white);
+}
+
+#location h3 {
+  text-transform: uppercase;
+}
+
+#location a {
+  color: var(--light-opacity-white);
 }
 
 .bold {
