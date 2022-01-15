@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.column-nine-tenth {
+  width: 90%;
+}
+
 .column-three-quarter {
   width: 75%;
 }

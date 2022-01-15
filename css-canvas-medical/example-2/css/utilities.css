@@ -3,7 +3,6 @@ header {
 }
 
 .header-layout {
-  width: 90%;
   padding: 0.5rem 0;
   margin: auto;
   justify-content: space-between;
@@ -24,7 +23,6 @@ section {
 
 #hero-image {
   margin: auto;
-  width: 90%;
   position: relative;
 }
 
@@ -35,23 +33,33 @@ section {
 }
 
 #hero-text {
+  width: 45%;
   position: absolute;
-  bottom: 10%;
-  left: 7%;
+  bottom: 18%;
+  left: 10%;
   color: white;
   z-index: 9999;
+}
+
+#notes {
+  padding: 6rem 0 4rem;
+  line-height: 1.2em;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .justify-content-end {
   justify-content: flex-end;
 }
 
-.align-items-center {
-  align-items: center;
+.justify-content-space-between {
+  justify-content: space-between;
 }
 
-.justify-content-center {
-  justify-content: center;
+.align-items-center {
+  align-items: center;
 }
 
 .margin-auto {
