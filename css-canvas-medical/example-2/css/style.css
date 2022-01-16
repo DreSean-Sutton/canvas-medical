@@ -1,0 +1,80 @@
+:root {
+  --button-colors: rgb(10 66 101);
+  --overlay-color: rgb(120 120 120 / 30%);
+  --button-boxshadow: 1px 1px 2px 2px rgb(150 150 150);
+  --light-dark-background: whitesmoke;
+  --grey-letters: rgb(180 180 180);
+  --main-location-color: rgb(82 83 81);
+  --light-opacity-white: rgb(255 255 255 /85%);
+}
+
+header {
+  border-bottom: 1px solid rgb(168 168 168 / 30%);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8em 1em;
+  background-color: var(--button-colors);
+  border: 1px solid var(--button-colors);
+  box-shadow: var(--button-boxshadow);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color);
+  width: 100%;
+  height: 800px;
+}
+
+#automation {
+  border-bottom: 1.5px solid rgb(168 168 168 / 30%);
+}
+
+#location {
+  background-color: var(--main-location-color);
+  color: var(--light-opacity-white);
+}
+
+#location h3 {
+  text-transform: uppercase;
+}
+
+#location a {
+  color: var(--light-opacity-white);
+}
+
+#terms a {
+  color: rgb(80 80 80);
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey-text {
+  color: var(--grey-letters);
+}
+
+.light-dark-background {
+  background-color: var(--light-dark-background);
+}
