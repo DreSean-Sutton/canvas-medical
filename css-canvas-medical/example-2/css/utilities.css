@@ -150,6 +150,11 @@ p i {
   line-height: 2.5em;
 }
 
+#location-logo {
+  position: relative;
+  top: 1rem;
+}
+
 #location-logo img {
   width: 25%;
   margin-bottom: 1.8rem;
