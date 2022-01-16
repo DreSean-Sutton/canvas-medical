@@ -5,20 +5,11 @@
   --light-dark-background: whitesmoke;
   --grey-letters: rgb(180 180 180);
   --main-location-color: rgb(82 83 81);
-  --light-opacity-white: rgb(255 255 255 / 70%);
+  --light-opacity-white: rgb(255 255 255 /85%);
 }
 
 header {
   border-bottom: 1px solid rgb(168 168 168 / 30%);
-}
-
-#header-logo {
-  width: 25%;
-  min-width: 15rem;
-}
-
-#header-logo img {
-  width: 50%;
 }
 
 li {
@@ -51,7 +42,7 @@ button:hover {
   left: 0;
   background-color: var(--overlay-color);
   width: 100%;
-  height: 1000px;
+  height: 800px;
 }
 
 #automation {
