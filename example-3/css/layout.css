@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-nine-tenth {
+  width: 90%;
+}
+
+.column-three-quarter {
+  width: 75%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-four-tenth {
+  width: 40%;
+}
+
+.column-three-tenth {
+  width: 30%;
+}
+
+.column-one-quarter {
+  width: 25%;
+}
+
+.column-one-fifth {
+  width: 20%;
+}
+
+.column-one-tenth {
+  width: 10%;
+}
+
+@media all and (max-width: 1000px) {
+  .navbar-list {
+    margin-left: 1em;
+  }
+}
