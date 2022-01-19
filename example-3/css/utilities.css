@@ -1,0 +1,27 @@
+/* NAVBAR SECTION */
+#nav-section li + li {
+  margin-left: 1rem;
+}
+
+/* UTILITY CLASSES */
+
+.content-layout {
+  width: 90%;
+  margin: auto;
+}
+
+.buttons {
+  padding: 0.5em 1.5em;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}

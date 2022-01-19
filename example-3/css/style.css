@@ -1,0 +1,23 @@
+:root {
+  --button-colors: rgb(10 66 101);
+}
+
+html {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* UTILITY CLASSES */
+
+.buttons {
+  background-color: blue;
+  color: white;
+}
